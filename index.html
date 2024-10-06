@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energico</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"   />
+</head>
+
+<body class="font-sans">
+
+    <!-- Top Bar -->
+    <div class="bg-green-600 text-white text-sm py-2">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <!-- Left Side: Contact Info -->
+            <p>Call Us Now: 555 376 7872</p>
+            <!-- Right Side: Social Media Icons -->
+            <div class="flex space-x-4">
+                <a href="https://facebook.com" class="hover:text-gray-300"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+                <a href="https://pinterest.com" class="hover:text-gray-300"><i class="fab fa-pinterest"></i></a>
+                <a href="https://instagram.com" class="hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Logo and Navigation -->
+    <header class="bg-white shadow-md py-4">
+        <div class="container mx-auto flex flex-col items-center px-4">
+
+            <div class="flex justify-center">
+                <img src="/Images/logo.png" alt="Energico Logo" class="h-12">
+            </div>
+
+            <div class="lg:hidden absolute right-4">
+                <button id="menu-toggle" class="text-gray-700 focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="menu" class="hidden lg:flex justify-center space-x-8 text-gray-700 text-sm font-semibold mt-4">
+            <a href="index.html" class="hover:text-yellow-500">HOME</a>
+            <a href="about.html" class="hover:text-yellow-500">ABOUT</a>
+            <a href="contact.html" class="hover:text-yellow-500">CONTACT US</a>
+        </div>
+    </header>
+
+    <div id="mobile-menu" class="hidden lg:hidden px-4">
+        <nav class="flex flex-col space-y-2 text-gray-700 text-sm font-semibold mt-4 text-center">
+            <a href="index.html" class="hover:text-yellow-500">HOME</a>
+            <a href="about.html" class="hover:text-yellow-500">ABOUT</a>
+            <a href="contact.html" class="hover:text-yellow-500">CONTACT US</a>
+        </nav>
+    </div>
+
+
+    <!-- garden care section -->
+    <section class="relative bg-cover bg-center h-screen flex items-center justify-center"
+        style="background-image: url('/Images/img1.jpg');">
+        <div class="text-center text-white p-6 bg-opacity-50">
+            <h1 class="text-5xl md:text-6xl font-bold leading-tight">
+                GARDEN CARE is our true passion!<br>
+            </h1>
+            <p class="mt-4 text-lg md:text-xl">SO WHENEVER YOU JUST
+                FEEL YOU NEED A
+                PROFESSIONAL HELPING
+                HAND AT YOUR GARDEN,
+                CALL US UP!</p>
+
+            <a href="#"
+                class="mt-6 inline-block bg-transparent border border-white text-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition duration-300">
+                FIND OUT MORE
+            </a>
+
+            <div class="mt-6 flex justify-center space-x-2">
+                <span class="block w-3 h-3 bg-white rounded-full"></span>
+                <span class="block w-3 h-3 bg-white rounded-full"></span>
+                <span class="block w-3 h-3 bg-white rounded-full"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Yellow Section -->
+    <section class="w-full flex flex-col md:flex-row">
+
+        <div class="flex-1 bg-cover bg-center p-8" style="background-image: url('/Images/img7.jpg');">
+            <div class="text-center">
+                <img src="/Images/img4.png" alt="Best Practicing Icon" class="mx-auto w-16 h-16 mb-4">
+                <a href="#" <h3 class="text-xl font-bold hover:text-black text-white">BEST PRACTICING</h3>
+                </a>
+            </div>
+        </div>
+
+        <div class="flex-1 bg-cover bg-center p-8" style="background-image: url('/Images/img8.jpg');">
+            <div class="text-center">
+                <img src="/Images/img5.png" alt="First Pace Icon" class="mx-auto w-16 h-16 mb-4">
+                <a href="#" <h3 class="text-xl font-bold hover:text-black text-white">FIRST PACE</h3>
+                </a>
+            </div>
+        </div>
+
+        <div class="flex-1 bg-cover bg-center p-8" style="background-image: url('/Images/img7.jpg');">
+            <div class="text-center">
+                <img src="/Images/img6.png" alt="Range of Services Icon" class="mx-auto w-16 h-16 mb-4">
+                <a href="#" <h3 class="text-xl font-bold hover:text-black text-white">RANGE OF SERVICES</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- White Section -->
+    <section class="w-full bg-cover bg-center py-16" style="background-image: url('/Images/img9.jpg');">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-end">
+            <div class="md:w-1/2 bg-white bg-opacity-70 p-8">
+                <h2 class="text-3xl font-bold mb-4">Why Energico?</h2>
+                <p class="text-lg md:text-xl leading-relaxed text-gray-700 mb-6">
+                    Welcome to the top-rated exterior design company!<br>
+                    After years of practical (both personal and work-related) experience at hand,
+                    our team of passionate gardeners is your only option!
+                </p>
+                <a href="#"
+                    class="inline-block bg-yellow-500 hover:bg-yellow-600 text-white px-10 py-3 rounded-full font-semibold">
+                    FIND OUT MORE
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Create the Perfect Garden Section -->
+    <section class="relative bg-cover bg-center py-16" style="background-image: url('/Images/img10.jpg');">
+        <div class="container mx-auto text-white text-left">
+            <div class="max-w-lg pl-4 md:pl-8 lg:pl-12">
+                <h2 class="text-4xl font-bold text-yellow-400 mb-1">CREATE</h2>
+                <h3 class="text-4xl font-bold mb-4">The Perfect Garden!</h3>
+                <a href="#"
+                    class="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold px-10 py-3 rounded-full font-semibold">FIND
+                    OUT MORE</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Perform to the Highest Standards Section -->
+    <section class="relative bg-cover bg-center py-32 px-8" style="background-image: url('/Images/img11.jpg');">
+        <div class="relative flex flex-col items-start justify-center max-w-xl mx-auto md:ml-16">
+            <h2 class="text-4xl font-bold mb-4">Perform to the Highest Standards</h2>
+            <p class="text-lg text-gray-600 mb-6">
+                With all kinds of garden design/care, lawn & plants in our range, we're your natural choice!
+            </p>
+            <a href="#"
+                class="inline-block bg-gray-200 hover:bg-gray-600 hover:text-gray-800 text-grey-700 px-10 py-3 rounded-full">GET
+                A QUOTE</a>
+        </div>
+    </section>
+
+    <!-- Our Advantages Section -->
+    <section class="bg-gray-100 py-16 px-8">
+        <h2 class="text-3xl font-bold text-center mb-12">Our Advantages</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+
+            <div class="text-center flex flex-col items-center">
+                <img src="/Images/img12.png" alt="Creative Ideas Icon" class="w-16 h-16 mb-4">
+                <h3 class="text-lg font-bold text-green-600 mb-2">Creative Ideas</h3>
+                <p class="text-gray-600 text-center max-w-sm">
+                    Serving everyone from
+                    household owners to hotels and
+                    office, we make sure to provide a
+                    truly full-cycle range of exterior
+                    design, landscaping, and exterior
+                    remodeling services!
+                </p>
+            </div>
+
+            <div class="text-center flex flex-col items-center">
+                <img src="/Images/img14.png" alt="Decorating Icon" class="w-16 h-16 mb-4">
+                <h3 class="text-lg font-bold text-green-600 mb-2">Decorating</h3>
+                <p class="text-gray-600 text-center max-w-sm">
+                    It does not really matter is it the
+                    Christmas time of the year or
+                    not, priming your house with
+                    some decorative elements or
+                    masonry should not and is not
+                    a seasonal fad!
+                </p>
+            </div>
+
+            <div class="text-center flex flex-col items-center">
+                <img src="Images/img16.png" alt="Garden Design Icon" class="w-16 h-16 mb-4">
+                <h3 class="text-lg font-bold text-green-600 mb-2">Garden Design</h3>
+                <p class="text-gray-600 text-center max-w-sm">
+                    Did you ever consider giving
+                    your house exterior or your
+                    landscape a unique look,
+                    implementing some superb
+                    design ideas you've seen
+                    before in the magazines?
+                </p>
+            </div>
+
+            <div class="text-center flex flex-col items-center">
+                <img src="/Images/img13.png" alt="Expert Advice Icon" class="w-16 h-16 mb-4">
+                <h3 class="text-lg font-bold text-green-600 mb-2">Expert Advice</h3>
+                <p class="text-gray-600 text-center max-w-sm">
+                    Regardless of how crazy your
+                    exterior idea is, our team of
+                    design-and-build experts will
+                    easily turn it into reality! This is
+                    true for projects of any scale!
+                </p>
+            </div>
+
+            <div class="text-center flex flex-col items-center">
+                <img src="/Images/img15.png" alt="Friendly Prices Icon" class="w-16 h-16 mb-4">
+                <h3 class="text-lg font-bold text-green-600 mb-2">Friendly Prices</h3>
+                <p class="text-gray-600 text-center max-w-sm">
+                    Having so much to offer, we
+                    also would love to give you the
+                    best pricing on all of our
+                    services! This means that as
+                    compared to our market rivals,
+                    our pricing is indeed fair and
+                    friendly!
+                </p>
+            </div>
+
+            <div class="text-center flex flex-col items-center">
+                <img src="/Images/img17.png" alt="Softscapes Icon" class="w-16 h-16 mb-4">
+                <h3 class="text-lg font-bold text-green-600 mb-2">Softscapes</h3>
+                <p class="text-gray-600 text-center max-w-sm">
+                    Softscaping is the total
+                    opposite for the hardscaping
+                    in that it is neither as longlasting
+                    as the hard structure,
+                    nor it is made of materials
+                    that are durable.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips & Tricks Section -->
+    <section class="bg-white py-16 px-8">
+        <h2 class="text-3xl font-bold text-center mb-12">See the Tips & Tricks for Gardeners on Our Blog!</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto max-w-screen-lg">
+
+            <div class="flex flex-col items-center">
+                <img src="Images/img19.jpg" alt="Garden Tip Image" class="w-full h-64 object-cover mb-4 rounded-lg">
+                <h3 class="text-lg font-bold text-gray-800 mb-2">THE LESS CHEMICALS YOU USE, THE BETTER!</h3>
+                <p class="text-gray-600 text-center">
+                    So, we guess that if you're reading this blog entry
+                    now, you are an avid gardener yourself, right?
+                    Which in turn means that as we're talking about
+                    the ways to compost your garden, the more you
+                    should be listening.
+                </p>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img src="/Images/img18.jpg" alt="Lawn Care Tip Image" class="w-full h-64 object-cover mb-4 rounded-lg">
+                <h3 class="text-lg font-bold text-gray-800 mb-2">THE LESS CHEMICALS YOU USE, THE BETTER!</h3>
+                <p class="text-gray-600 text-center">
+                    So, we guess that if you're reading this blog entry
+                    now, you are an avid gardener yourself, right?
+                    Which in turn means that as we're talking about
+                    the ways to compost your garden, the more you
+                    should be listening.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-screen-lg mx-auto flex flex-col items-center">
+            <img src="Images/footer-logo.png" alt="Logo Icon" class="h-16 mb-4">
+            <div class="flex space-x-6 mb-4">
+                <a href="https://facebook.com" class="hover:text-gray-300"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+                <a href="https://pinterest.com" class="hover:text-gray-300"><i class="fab fa-pinterest"></i></a>
+                <a href="https://instagram.com" class="hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <p class="text-gray-400">&copy; 2024 Your Company. Privacy Policy</p>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+
+</html>

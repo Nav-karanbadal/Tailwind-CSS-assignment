@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energico.About</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"   />
+</head>
+
+<body>
+
+    <!-- Top Bar -->
+    <div class="bg-green-600 text-white text-sm py-2">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <!-- Left Side: Contact Info -->
+            <p>Call Us Now: 555 376 7872</p>
+            <!-- Right Side: Social Media Icons -->
+            <div class="flex space-x-4">
+                <a href="https://facebook.com" class="hover:text-gray-300"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+                <a href="https://pinterest.com" class="hover:text-gray-300"><i class="fab fa-pinterest"></i></a>
+                <a href="https://instagram.com" class="hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Logo and Navigation -->
+    <header class="bg-white shadow-md py-4">
+        <div class="container mx-auto flex flex-col items-center px-4">
+
+            <div class="flex justify-center">
+                <img src="/Images/logo.png" alt="Energico Logo" class="h-12">
+            </div>
+
+            <div class="lg:hidden absolute right-4">
+                <button id="menu-toggle" class="text-gray-700 focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="menu" class="hidden lg:flex justify-center space-x-8 text-gray-700 text-sm font-semibold mt-4">
+            <a href="index.html" class="hover:text-yellow-500">HOME</a>
+            <a href="about.html" class="hover:text-yellow-500">ABOUT</a>
+            <a href="contact.html" class="hover:text-yellow-500">CONTACT US</a>
+        </div>
+    </header>
+
+    <div id="mobile-menu" class="hidden lg:hidden px-4">
+        <nav class="flex flex-col space-y-2 text-gray-700 text-sm font-semibold mt-4 text-center">
+            <a href="index.html" class="hover:text-yellow-500">HOME</a>
+            <a href="about.html" class="hover:text-yellow-500">ABOUT</a>
+            <a href="contact.html" class="hover:text-yellow-500">CONTACT US</a>
+        </nav>
+    </div>
+
+    <!-- Contact Us Section -->
+    <section class="bg-green-500 text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold">CONTACT US</h2>
+            <nav> <a href="index.html" class="hover:text-yellow-500">Home</a> / <a href="contact.html"
+                    class="hover:text-yellow-500">Contact Us</a>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Get in touch/Write to us -->
+    <section class="bg-white py-16">
+        <div class="container mx-auto px-4 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div class="lg:border-r lg:pr-8 flex justify-center lg:justify-start">
+                <div class="max-w-md mx-auto">
+                    <h2 class="text-4xl font-bold mb-4">Get in touch</h2>
+                    <p class="text-green-500 font-semibold">ENERGICO - AGRICULTURE & GARDEN CARE</p>
+                    <div class="mt-20">
+                        <h3 class="text-lg font-bold text-green-500">Toronto Office</h3>
+                        <p>8949 Kenamar Drive, suite 101 Boston, Ma 92121<br>Phone. 555.376.7872 Fax. 555.376.7873</p>
+                    </div>
+                    <div class="mt-20">
+                        <h3 class="text-lg font-bold text-green-500">HQ Office (Boston, MA, USA)</h3>
+                        <p>8949 Kenamar Drive, suite 101 Boston, Ma 92121<br>Phone. 555.376.7872 Fax. 555.376.7873</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-gray-50 p-8 rounded-md shadow-md">
+                <h2 class="text-4xl font-bold mb-4">Write to us</h2>
+                <p class="text-gray-600 mb-8">GET A PRICING QUOTE FOR A RESIDENTIAL OR BUSINESS SOLAR PANEL INSTALLATION
+                </p>
+
+                <form class="space-y-4">
+                    <div>
+                        <input type="text" placeholder="Your name"
+                            class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-green-500">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Your e-mail"
+                            class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-green-500">
+                    </div>
+                    <div>
+                        <input type="tel" placeholder="Phone"
+                            class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-green-500">
+                    </div>
+                    <div>
+                        <select
+                            class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-green-500">
+                            <option>Do you need a residential or commercial system?</option>
+                            <option>Residential</option>
+                            <option>Commercial</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Street Address"
+                            class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-green-500">
+                    </div>
+                    <div>
+                        <select
+                            class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-green-500">
+                            <option>What is your average monthly electricity bill?</option>
+                            <option>Less than Rs.1000</option>
+                            <option>Rs.1000-Rs.5000</option>
+                            <option>More than Rs.5000</option>
+                        </select>
+                    </div>
+                    <div class="mt-4">
+                        <button type="submit"
+                            class="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold px-10 py-3 rounded-full font-semibold">REQUEST
+                            QUOTE</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-screen-lg mx-auto flex flex-col items-center">
+            <img src="Images/footer-logo.png" alt="Logo Icon" class="h-16 mb-4">
+            <div class="flex space-x-6 mb-4">
+                <a href="#" class="hover:text-gray-300"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="hover:text-gray-300"><i class="fab fa-pinterest"></i></a>
+                <a href="#" class="hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="text-gray-400">&copy; 2024 Your Company. Privacy Policy</p>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+
+</html>
